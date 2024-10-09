@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Register</title>
+  <link href="register.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="wrapper">
+  <h2 class="text-center mb-4">Registro Practicas Preprofesionales</h2>
+  
+  <div id="register" class="hide">
+    <form id="register-form">
+      
+      <div class="form-group">
+        <label for="modo">Modo:</label>
+        <select class="form-control" id="regModo">
+          <option value="estudiante">Estudiante</option>
+          <option value="docente">Docente / Tutor</option>
+          <option value="empresa">Empresa</option>
+        </select>
+      </div>
+      
+      <div class="form-group">
+        <label for="regUserType">Correo Institucional:</label>
+        <input type="email" class="form-control" id="regEmail">
+      </div>
+      
+      <div class="form-group">
+        <label for="regUsername">Cedula / RUC:</label>
+        <input type="text" class="form-control" id="regCedula">
+      </div>
+      
+      <div class="form-group">
+        <label for="regPassword">Contraseña:</label>
+        <input type="password" class="form-control" id="regPassword">
+      </div>
+
+      <button type="submit" class="button">Registrarse</a></a></button>
+
+      <div class="xd">      
+            <p class="text-center mt-3">¿Ya tienes una cuenta? <a href="login.html" id="registerlink">Inicia Sesion</a></p>
+        </div>
+    </form>
+  </div>
+
+</div>
+<script src="register.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
