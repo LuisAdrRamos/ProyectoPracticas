@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/72/CEC_EPN_Classroom_Building_at_Escuela_Polit%C3%A9cnica_Nacional_Quito%2C_Ecuador._01.JPG');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 400px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.button{
+  background-color: #006de1;
+  border: 2px solid #00438a;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 5px 119px;
+}
+.button:hover {
+  background-color: #004c9e;
+  color: white;
+}
+
+.wrapper {
+background: transparent;
+border: 2px solid rgba(255, 255, 255, .2);
+backdrop-filter: blur(20px);
+box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+color: white;
+width: 420px;
+padding: 20px 40px;
+border-radius: 10px;
+
+}
